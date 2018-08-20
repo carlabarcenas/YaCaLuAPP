@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="integradora.ingenieria.yacalu.yacalu1.ConectorsPracticActivity"
+    android:orientation="vertical"
+    android:background="@drawable/ic_rth">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@drawable/shape_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nuevo"
+            android:text="Question"
+            />
+        <Button
+            android:background="@drawable/shape_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_newintent"
+            android:hint="@string/btn_irmenu"
+            android:layout_marginBottom="10sp"
+            android:layout_marginRight="100dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/target1"
+            android:padding="3dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/test1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I'm going to leave, _______ it's raining"
+                android:visibility="invisible"
+                android:background="@android:color/transparent"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/target2"
+            android:padding="3dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/test2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="You need to rest, _____ you denied"
+                android:visibility="invisible"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/target3"
+            android:padding="3dp"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/test3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:visibility="invisible"
+                android:text="My aunt come to the store when it opens, ___________\n, buy the dress she wants." />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="furthermore"
+            android:layout_weight="1"
+            android:id="@+id/btn3"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="although"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:id="@+id/btn2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="however"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:id="@+id/btn1"/>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

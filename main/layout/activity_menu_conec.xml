@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="integradora.ingenieria.yacalu.yacalu1.MenuConecActivity"
+    android:background="@drawable/ic_rt">
+
+    <Button
+        android:id="@+id/btn_conclusive"
+        android:layout_width="160dp"
+        android:layout_height="164dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/ic_conectorscon" />
+    <Button
+        android:id="@+id/btn_continuos"
+        android:layout_width="160dp"
+        android:layout_height="164dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ic_conectorsconti" />
+    <Button
+        android:id="@+id/btn_adverse"
+        android:layout_width="160dp"
+        android:layout_height="164dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_conectorsasv" />
+
+    <Button
+        android:id="@+id/btn_practic"
+        android:background="@drawable/shape_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:layout_marginRight="100dp"
+        android:hint="@string/practic" />
+
+
+</RelativeLayout>
